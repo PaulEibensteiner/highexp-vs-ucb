@@ -1,6 +1,6 @@
 # High Expectation vs UCB
 
-
+![image-20260401173758222](./readme.assets/3d-comparison.png)
 
 This folder contains a small set of notebooks exploring the relationship between a high-expectation strategy and GP-UCB-style acquisition functions. The main example combines a synthetic binary outcome model, Gaussian-process-based surrogates, and visual comparisons between exploration strategies.
 
