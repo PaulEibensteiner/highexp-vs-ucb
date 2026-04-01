@@ -6,9 +6,9 @@ This folder contains a small set of notebooks exploring the relationship between
 
 ## Contents
 
-- `highexp-vs-ucb.ipynb`: background notes and a 1D Gaussian-process regression example.
-- `highexp-vs-ucb-example.ipynb`: the main 2D notebook with the binary outcome toy problem, sequential sampling, and visualizations.
-- `requirements.txt`: Python packages used by the notebooks.
+- [highexp-vs-ucb.ipynb](highexp-vs-ucb.ipynb): background notes and a 1D Gaussian-process regression example.
+- [highexp-vs-ucb-example.ipynb](highexp-vs-ucb-example.ipynb): the main 2D notebook with the binary outcome toy problem, sequential sampling, and visualizations.
+- [requirements.txt](requirements.txt): Python packages used by the notebooks.
 
 ## Run the notebooks
 
@@ -21,7 +21,7 @@ Click the Binder badge below to launch the main notebook in a hosted environment
 ### Local setup
 
 1. Create a virtual environment.
-2. Install the dependencies from `requirements.txt`.
+2. Install the dependencies from [requirements.txt](requirements.txt).
 3. Open the notebook in Jupyter or VS Code and run the cells top to bottom.
 
 Example:
