@@ -10,6 +10,13 @@ This folder contains a small set of notebooks exploring the relationship between
 - [highexp-vs-ucb-example.ipynb](highexp-vs-ucb-example.ipynb): the main 2D notebook with the binary outcome toy problem, sequential sampling, and visualizations.
 - [requirements.txt](requirements.txt): Python packages used by the notebooks.
 
+### Why High Expecation is nice
+
+- MAP often more efficient to calculate than MAP + variance.
+- Can just use MLE (equiv. to MAP with uniform prior) with a high 'prior mean' and get rid of Bayesian treatment altogether. E.g. neural network with he initialization (expected mean = 0) and then add a fixed offset to the output.
+- With e.g. linear kernel learning can still make global adjustments to the mean.
+- High expectation can pull towards higher mode of multimodal posterior?
+
 ## Run the notebooks
 
 ### Binder
@@ -31,8 +38,3 @@ python3 -m venv .env
 source .env/bin/activate
 python -m pip install -r requirements.txt
 ```
-
-## Notes
-
-- The notebooks are meant as explanatory demos, not production-ready Bayesian optimization code.
-- The visualizations emphasize intuition: the synthetic ground-truth surface, the sampled observations, and the difference between exploratory strategies.
