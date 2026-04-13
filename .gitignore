@@ -1,3 +1,8 @@
+drd2_benchmark/data/*
+drd2_benchmark/oracle/*
+drd2_benchmark/sweep_outputs/*
+drd2_benchmark/sweep_outputs_v3/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

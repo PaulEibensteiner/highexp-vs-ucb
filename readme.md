@@ -38,3 +38,12 @@ python3 -m venv .env
 source .env/bin/activate
 python -m pip install -r requirements.txt
 ```
+
+### Related Literature
+
+[What do you Mean? The Role of the Mean Function in Bayesian Optimisation](https://dl.acm.org/doi/pdf/10.1145/3377929.3398118)
+
+[Greed Is Good: Exploration and Exploitation Trade-offs
+in Bayesian Optimisation](https://dl.acm.org/doi/pdf/10.1145/3425501?utm_source=consensus)
+
+[Bayesian Optimization with Informative Covariance](https://scispace.com/pdf/bayesian-optimization-with-informative-covariance-1bv12tcp.pdf)

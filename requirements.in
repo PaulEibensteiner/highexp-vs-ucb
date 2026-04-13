@@ -4,3 +4,8 @@ scipy
 plotly
 ipykernel
 jupyterlab
+pandas
+tqdm
+torch
+rdkit
+PyTDC
