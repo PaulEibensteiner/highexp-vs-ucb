@@ -13,7 +13,7 @@ This folder contains a small set of notebooks exploring the relationship between
 ### Why High Expecation is nice
 
 - MAP often more efficient to calculate than MAP + variance.
-- Can just use MLE (equiv. to MAP with uniform prior) with a high 'prior mean' and get rid of Bayesian treatment altogether. E.g. neural network with he initialization (expected mean = 0) and then add a fixed offset to the output.
+- Can just use MLE (equiv. to MAP with uniform prior) with a high 'prior mean' and get rid of Bayesian treatment altogether. E.g. neural network with he initialization (expected mean = 0) and then add a fixed offset to the output. Note: UCB can also be done without a full posterior distribution by instead modelling the epistemic variance e.g. by dropout or ensembles.
 - With e.g. linear kernel learning can still make global adjustments to the mean.
 - High expectation can pull towards higher mode of multimodal posterior?
 
